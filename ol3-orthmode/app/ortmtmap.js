@@ -7,7 +7,7 @@ var MapGuideProtocoleVersion = '3.0.0';
 if (devMode) {
   MapGuideProtocoleVersion = '2.0.0';
   mdf = 'Library://Applications/Schmt/Schématique MT.MapDefinition';
-  agentUrl = 'http://netgis-acc.ores.net/mapserver2012/mapagent/mapagent.fcgi?USERNAME=Anonymous';
+  agentUrl = 'http://netgis.url/mapserver2012/mapagent/mapagent.fcgi?USERNAME=Anonymous';
   $('#infoOres')[0].innerHTML = 'dev mode';
 }
 
