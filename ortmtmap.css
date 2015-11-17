@@ -1,0 +1,187 @@
+ .map {
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgb(0,0,0);
+    height:625px;
+} 
+
+.help {
+	font-size: 1.2em;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	z-index: 10;
+	background-color: rgba(255,255,255,1);
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.map:-moz-full-screen {
+  height: 100%;
+}
+.map:-webkit-full-screen {
+  height: 100%;
+}
+.map:-ms-fullscreen {
+  height: 100%;
+}
+.map:fullscreen {
+  height: 100%;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n) {
+    background-color: rgb(51,51,51);
+	color: white;
+}
+
+
+
+/**
+ * The zoomslider in the second map shall be placed between the zoom-in and
+ * zoom-out buttons.
+ */
+#map .ol-zoom .ol-zoom-in {
+  margin-top: 35px;
+}
+#map .ol-zoom .ol-zoom-out {
+  margin-top: 200px;
+}
+#map .ol-zoomslider {
+  background-color: rgba(75, 75, 75, 0.05);
+  top: 4.6em;
+  left: 10px;
+}
+
+#map .ol-touch .ol-zoom .ol-zoom-out {
+  margin-top: 242px;
+}
+#map .ol-touch .ol-zoomslider {
+  top: 3.75em;
+}
+
+#map .ol-zoom-in.ol-has-tooltip:hover [role=tooltip],
+#map .ol-zoom-in.ol-has-tooltip:focus [role=tooltip] {
+  top: 3px;
+}
+
+#map .ol-zoom-out.ol-has-tooltip:hover [role=tooltip],
+#map .ol-zoom-out.ol-has-tooltip:focus [role=tooltip] {
+  top: 232px;
+}
+
+.snap-tool {
+  top: 345px;
+  left: 2.5em;
+}
+.ol-touch .snap-tool {
+  top: 280px;
+}
+
+.error-tool {
+  top: 305px;
+  left: 2.5em;
+}
+
+.grid-tool {
+  top: 345px;
+  left: .5em;
+}
+.ol-touch .grid-tool {
+  top: 330px;
+}
+
+.edit-lia-tool {
+  top: 375px;
+  left: .5em;
+}
+.ol-touch .edit-lia-tool {
+  top: 375px;
+}
+
+.edit-cabs-tool {
+  top: 405px;
+  left: .5em;
+}
+.ol-touch .edit-cabs-tool {
+  top: 390px;
+}
+
+.edit-cabc-tool {
+  top: 405px;
+  left: 2.5em;
+}
+.ol-touch .edit-cabc-tool {
+  top: 390px;
+}
+
+.edit-cabt-tool {
+  top: 405px;
+  left: 4.5em;
+}
+.ol-touch .edit-cabt-tool {
+  top: 390px;
+}
+
+.edit-cabr-tool {
+  top: 405px;
+  left: 6.5em;
+}
+.ol-touch .edit-cabr-tool {
+  top: 390px;
+}
+
+.label-tool {
+  top: 435px;
+  left: .5em;
+}
+.ol-touch .label-tool {
+  top: 420px;
+}
+
+.lol-tool {
+  top: 305px;
+  left: 4.5em;
+}
+.edits-tool {
+  top: 305px;
+  left: .5em;
+}
+.ol-touch .lol-tool {
+  top: 480px;
+}
+
+.ol-full-screen {
+  top: 45px;
+}
+
+.grid-container {
+ width : 550px;
+ height : 250px;
+ overflow: scroll;
+}
+
+#message {
+    top: 50;
+    left: 50;
+    width: 300px;	
+}
+#alert_placeholder {
+ position:absolute;
+ right : 320px;
+ bottom : 10px;
+}
+
+#swipetool_placeholder {
+ position:absolute;
+ bottom : 10px;
+ width : 100%;
+}
+
+.alert {
+  white-space: nowrap;
+  width : 550px;
+  margin: 0 auto;
+}
